@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Accordion</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Accordion</h1>
+        <div class="accordion">
+            <div class="acc-item">
+                <input type="radio" name="acc" id="winter" class="acc-input" checked>
+                <label for="winter" class="acc-title">Зима</label>
+                <div class="acc-content">
+                    <label for="winter">
+                        <img src="img/IMG_20200206_115537.jpg" alt="Зима">
+                    </label>
+                </div>
+            </div>
+
+            <div class="acc-item">
+                <input type="radio" name="acc" id="spring" class="acc-input">
+                <label for="spring" class="acc-title">Весна</label>
+                <div class="acc-content">
+                    <label for="spring">
+                        <img src="img/IMG_20240415_135827.jpg" alt="Весна">
+                    </label>
+                </div>
+            </div>
+
+            <div class="acc-item">
+                <input type="radio" name="acc" id="summer" class="acc-input">
+                <label for="summer" class="acc-title">Лето</label>
+                <div class="acc-content">
+                    <label for="summer">
+                        <img src="img/photo_2022-07-19_14-33-33.jpg" alt="Лето">
+                    </label>
+                </div>
+            </div>
+
+            <div class="acc-item">
+                <input type="radio" name="acc" id="autumn" class="acc-input">
+                <label for="autumn" class="acc-title">Осень</label>
+                <div class="acc-content">
+                    <label for="autumn">
+                        <img src="img/photo_2026-03-03_14-39-47.jpg" alt="Осень">
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
