@@ -69,10 +69,6 @@ h1 {
     position: relative;
 }
 
-.acc-title:hover {
-    color: #cc8e31;
-}
-
 .acc-title::after {
     content: '+';
     display: inline-block;
@@ -107,6 +103,10 @@ label {
 @media (hover: hover) and (pointer: fine) {
     .acc-item:hover .acc-content {
         max-height: 1800px;
+    }
+
+    .acc-title:hover {
+        color: #cc8e31;
     }
 }
 
