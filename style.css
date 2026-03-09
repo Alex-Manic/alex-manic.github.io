@@ -106,10 +106,6 @@ h1 {
     background: #f9fbfc;
 }
 
-label {
-    cursor: pointer;
-}
-
 .acc-input:checked~.acc-content {
     max-height: 1800px;
 }
@@ -119,12 +115,16 @@ label {
         max-height: 1800px;
     }
 
-    .acc-title:hover {
+    .acc-item:hover .acc-input:not(:checked)+.acc-title {
         color: #cc8e31;
     }
 
-    .acc-input:not(:checked)+.acc-title:hover::after {
+    .acc-item:hover .acc-input:not(:checked)+.acc-title::after {
         animation: pulse 1.2s ease-in-out infinite;
+    }
+
+    label {
+        cursor: pointer;
     }
 }
 
